@@ -1,5 +1,5 @@
 import streamlit as st
-from PyPDF2 import PdfReader
+import PyPDF2
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
